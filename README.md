@@ -48,12 +48,15 @@ Simulates large file downloads using chunked transfer encoding.
 
 ### 🔄 `/events` – [Detailed Instructions](server-side-events/README.md) 
 Receive real-time one-way updates pushed from the server.  
-> `http://localhost:3000/events`  
+> `test using file given in folder running on local server`  
 <br>
 <img src="https://github.com/user-attachments/assets/ab591acb-32e9-49fb-a7e3-15a7b03dd157" width="500"/>
 
 ---
 
-### 💬 `/ws` – WebSockets for bi-directional streaming  
+### 💬 `/ws` – [Detailed Instructions](websocket/README.md)
 Use a WebSocket client to connect and test two-way communication.  
-> `ws://localhost:3000/ws`  
+> `test using file given in folder running on local server`
+<br>
+<img src="https://github.com/user-attachments/assets/0967a226-cec8-4573-8d5e-0ec1f2d0d322" width="500"/>
+
