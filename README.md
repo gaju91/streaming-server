@@ -30,7 +30,7 @@ node server.js
 
 ## 📂 Endpoints
 
-### 🎬 `/video` – Stream a video file  
+### 🎬 `/video` –– [Detailed Instructions](video-stream/README.md) 
 Efficient video delivery using HTTP range requests.  
 > `http://localhost:3000/video`  
 <br>
@@ -38,17 +38,19 @@ Efficient video delivery using HTTP range requests.
 
 ---
 
-### 📦 `/large-json` – Stream large JSON data in chunks  
+### 📦 `/chunked` –– [Detailed Instructions](chunked-json/README.md) 
 Simulates large file downloads using chunked transfer encoding.  
-> `http://localhost:3000/chunked`  
+> `http://localhost:3000/chunked`
+
 <br>
 <img src="https://github.com/user-attachments/assets/230380a5-9a24-4ed8-aa7f-787f2dcc8273" width="500"/>
-
 ---
 
-### 🔄 `/events` – Server-Sent Events (SSE)  
+### 🔄 `/events` – [Detailed Instructions](server-side-events/README.md) 
 Receive real-time one-way updates pushed from the server.  
 > `http://localhost:3000/events`  
+<br>
+<img src="https://github.com/user-attachments/assets/ab591acb-32e9-49fb-a7e3-15a7b03dd157" width="500"/>
 
 ---
 
