@@ -1,0 +1,32 @@
+{
+  "name": "streaming-server",
+  "version": "1.0.0",
+  "description": "This project demonstrates various real-time data streaming approaches in an Express.js server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaju91/streaming-server.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "streaming",
+    "sse",
+    "res.flush",
+    "realtime",
+    "websockets"
+  ],
+  "author": "Gajanand Sharma <gajanand742@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaju91/streaming-server/issues"
+  },
+  "homepage": "https://github.com/gaju91/streaming-server#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
