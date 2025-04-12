@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SSE Test</title>
+</head>
+<body>
+  <h2>📡 Real-Time Updates from Server</h2>
+  <pre id="output"></pre>
+
+  <script>
+    const output = document.getElementById('output');
+
+    const eventSource = new EventSource('http://localhost:3000/events');
+
+    eventSource.onmessage = (event) => {
+      output.textContent += event.data + '\n';
+    };
+
+    eventSource.addEventListener('close', () => {
+      output.textContent += '\n✅ Server closed the connection.\n';
+      eventSource.close();
+    });
+
+    eventSource.onerror = (err) => {
+      output.textContent += '\n❌ Connection lost.\n';
+      eventSource.close();
+    };
+  </script>
+</body>
+</html>
